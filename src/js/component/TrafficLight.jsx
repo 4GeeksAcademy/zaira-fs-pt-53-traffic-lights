@@ -4,11 +4,6 @@ import '../../styles/index.css';
 const TrafficLight = () => {
   const [color, setColor] = useState(null);
 
-  // useEffect(() => {
-  //   // logic for handling light glow effect
-  //   // 'color' determines which light should glow
-  // }, [color]);
-
   const handleLightClick = (selectedColor) => {
     setColor(selectedColor);
   };
